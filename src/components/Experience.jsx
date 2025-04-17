@@ -57,7 +57,7 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl ml-2 mr-2 mt-5 font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            My Skills
           </p>
           <p className="py-6 ml-2 mr-2">
             These are the technologies I've worked with
