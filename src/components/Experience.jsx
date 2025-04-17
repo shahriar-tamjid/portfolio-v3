@@ -1,10 +1,10 @@
 import React from "react";
 
-import excel from "../assets/excel.png";
+import node from "../assets/node.png";
 import sql from "../assets/sql.png";
 import python from "../assets/python.png";
 import javascript from "../assets/javascript.png";
-import php from "../assets/php.png";
+import nextjs from "../assets/nextjs.png";
 import reactImage from "../assets/react.png";
 
 
@@ -13,9 +13,9 @@ const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: excel,
-      title: "Excel",
-      style: "shadow-green-500",
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
     },
     {
       id: 2,
@@ -31,27 +31,27 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
+      src: node,
+      title: "Node.js",
+      style: "shadow-green-500",
     },
     {
       id: 5,
-      src: php,
-      title: "PHP",
-      style: "shadow-purple-400",
-    },
-    {
-      id: 6,
       src: reactImage,
       title: "React",
       style: "shadow-teal-500",
+    },
+    {
+      id: 6,
+      src: nextjs,
+      title: "Next.js",
+      style: "shadow-gray-400",
     },
   ];
 
   return (
     <div
-      name="experience"
+      name="skills"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
