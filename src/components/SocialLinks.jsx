@@ -43,7 +43,7 @@ const SocialLinks = () => {
           Twitter <FaTwitter size={30} />
         </>
       ),
-      href: "https://twitter.com/ShahriarSpeaks",
+      href: "https://x.com/shahriar_tamjid",
       style: "rounded-br-md",
     },
   ];
