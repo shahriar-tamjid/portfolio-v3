@@ -1,6 +1,5 @@
 import React from "react";
-//import HeroImage from "../assets/profile.png"; // Update this path to change the profile pic
-import HeroImage from "https://github.com/shahriar-tamjid/portfolio-v4/blob/main/src/assets/profile-2024.png";
+import HeroImage from "../assets/profile-2024.png"; // Update this path to change the profile pic
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
